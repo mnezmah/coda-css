@@ -1,0 +1,145 @@
+body {
+  background: grey;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  width: 100px;
+  height: 100px;
+
+  margin-left: 2%;
+}
+
+
+.black {
+  background: #4a4a4a;
+  height: 33.3%;
+  width: 33.3%
+}
+
+.blue {
+  background: #4a90e2;
+}
+
+.grey {
+background: #9b9b9b;
+}
+
+.light {
+  background: #d8d8d8;
+}
+
+.one > .blue {
+  width: 66.6%;
+  height: 66.6%;
+  top: -33%;
+  right: -33%;
+}
+.one > .light {
+  width: 100%;
+  height: 33.3%;
+  top: -66.6%;
+}
+.one > .grey {
+  width: 66.6%;
+  height: 33.3%;
+  z-index: 1;
+  top: -66.6%;
+}
+.three > .black {
+ width:66%;
+}
+ .blue, .black, .grey, .light, .lighter {
+  position: relative;
+} 
+
+/* TWO */
+
+.two > .black {
+  right: -66.6%; 
+}
+.two > .blue {
+  height: 66.6%;
+  width: 66.6%;
+  bottom: 0;
+  right: -33.3%;
+}
+
+.two > .grey {
+  width: 33.3%;
+  height: 66.6%;
+  top: -100%;
+  left: 33.3%;
+}
+
+.two > .light {
+  height: 100%;
+  width: 33.3%;
+  left: 0;
+  top: -166%;
+}
+
+/* three */
+
+.three > .black {
+  width: 66.6%;
+  bottom: -66.6%;
+  left: 33.3%;
+}
+
+.three > .blue {
+  width: 66.6%;
+  height:66.6%;
+  right: -33.3%;
+  top: -33.3%;
+}
+
+.three > .grey {
+  width: 33.3%;
+  height: 33.3%;
+  bottom: 33.3%;
+}
+
+.three > .light {
+  width: 33.3%;
+  height: 66.6%;
+  top: -133%;
+}
+
+/* four */
+
+.four > .black {
+  top: 66.6%;
+  left: 33.3%;
+}
+
+.four > .blue {
+  width: 33.3%;
+  height: 100%;
+  top: -33.3%;
+}
+
+.four > .grey {
+  height: 33.3%;
+  width: 33.3%;
+  top: -99.9%;
+  left: 33.3%;
+}
+
+.four > .light {
+  width: 33.3%;
+  height: 33.3%;
+  top: -166.6%;
+  left: 33.3%;
+}
+
+.lighter {
+  background: #ede9e9e9;
+  width: 33.3%;
+  height: 100%;
+  top: -199.4%;
+  left: 66.6%;
+}
