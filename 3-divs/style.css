@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background: #4a90e2;
+  height: 100px;
+  width: 100px;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.left, .right {
+  align-self: flex-end;
+  height: 25%;
+  width: 25%;
+  background: #d8d8d8;
+}
+
+.inner {
+  width: 50px;
+  height: 50px;
+  background: #c4c4c4;
+  position: relative;
+  top: 50%;
+  left: 25%;
+}
+
+.three {
+  color: #d8d8d8;
+  font-size: 2.3rem;
+  font-family: sans-serif;
+ }
+
+li {
+  list-style: none;
+}
+
+.div-h {
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.div-e {
+  position: relative;
+  left: 25%;
+  top: -20%;
+}
+.div-l {
+  position: relative;
+  left: 45%;
+  top: -45%;
+}
+.div-o {
+  position: relative;
+  left: 62%;
+  top: -75%;
+}
